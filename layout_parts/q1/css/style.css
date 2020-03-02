@@ -2,4 +2,31 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.gray-box {
+    width: 920px;
+    margin: 0 auto;
+    background-color: #eff3f4;
+}
+
+.blue-box {
+    float: left;
+    margin: 20px 0 20px 20px;
+    background-color: #3274ae;
+}
+
+.text-box {
+    width: 230px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 10px solid #022336;
+    background-color: #eaf4ff;
+}
+
 /* 回答はここに書いてね */
