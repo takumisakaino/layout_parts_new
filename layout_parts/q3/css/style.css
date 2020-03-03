@@ -2,4 +2,34 @@
 
 /* 回答はここに書いてね */
 
+.q3-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.q3-table th {
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #24a;
+    border: 1px solid #dedede;
+}
+
+.q3-table td {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #dedede;
+}
+
+.q3-table tbody tr:last-child {
+    border-top: 2px dashed #000;
+}
+
+.q3-table tbody tr:nth-child(even) {
+    background-color: #ECF1F2;
+}
+
 /* 回答はここに書いてね */
