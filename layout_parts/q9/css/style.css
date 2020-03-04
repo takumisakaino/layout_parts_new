@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+.talk {
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 5px solid #222;
+    border-radius: 30px;
+}
+
+.talk:before,
+.talk:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  content: "";
+}
+.talk:before {
+  bottom: -45px;
+  left: 30px;
+  border-top-color: #222;
+}
+.talk:after {
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
+}
+
+
 /* 回答はここに書いてね */
