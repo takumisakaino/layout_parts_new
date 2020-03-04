@@ -2,4 +2,64 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.d-table {
+    display: table;
+}
+
+.d-table-cell {
+    display: table-cell;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.font-0 {
+    font-size: 0;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.Q7-box {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.Q7-small-box {
+    width: 225px;
+}
+
+.Q7-big-box {
+    width: 300px;
+}
+
+.Q7-long-box {
+    width: 100%;
+    margin-left: -300px;
+    padding-left: 350px;
+    vertical-align: top;
+}
+
 /* 回答はここに書いてね */
