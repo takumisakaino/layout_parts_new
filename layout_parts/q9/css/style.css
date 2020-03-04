@@ -21,11 +21,13 @@
   border: 20px solid transparent;
   content: "";
 }
+
 .talk:before {
   bottom: -45px;
   left: 30px;
   border-top-color: #222;
 }
+
 .talk:after {
   bottom: -38px;
   left: 30px;
