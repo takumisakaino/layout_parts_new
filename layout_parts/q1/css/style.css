@@ -9,15 +9,21 @@
 }
 
 .gray-box {
-    width: 920px;
+    width: 940px;
     margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
     background-color: #eff3f4;
 }
 
 .blue-box {
     float: left;
-    margin: 20px 0 20px 20px;
+    margin-left: 20px;
     background-color: #3274ae;
+}
+
+.blue-box:first-child {
+    margin: 0;
 }
 
 .text-box {
