@@ -35,6 +35,7 @@
 .ml-50 {
     margin-left: 50px;
 }
+/* :first-childで実現 */
 
 .flex-box {
     display: flex;

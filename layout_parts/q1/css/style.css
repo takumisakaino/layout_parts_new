@@ -29,7 +29,8 @@
 .text-box {
     width: 230px;
     padding: 20px;
-    margin: 20px;
+		margin: 20px;
+		/* blueでpaddingをつける */
     box-sizing: border-box;
     border: 10px solid #022336;
     background-color: #eaf4ff;

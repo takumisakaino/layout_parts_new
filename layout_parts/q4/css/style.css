@@ -16,6 +16,7 @@
 .pt-20p {
     padding-top: 20px;
 }
+/* :first-childで消す */
 
 .contents-box {
     padding: 20px;

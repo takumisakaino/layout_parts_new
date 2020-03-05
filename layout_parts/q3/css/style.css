@@ -30,6 +30,7 @@
 
 .q3-table tbody tr:nth-child(even) {
     background-color: #ECF1F2;
+    /* 小文字？ */
 }
 
 /* 回答はここに書いてね */
